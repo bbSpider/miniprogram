@@ -1,0 +1,13 @@
+/**index.wxss**/
+.click{
+  width: 500rpx;
+  height: 70rpx;
+  font-size: 20px;
+}
+.window{
+  position: fixed;
+  height: 400rpx;
+  width: 400rpx;
+  transform: translate( 50%, 50%);/*距x,y轴*/
+  background: salmon;
+}

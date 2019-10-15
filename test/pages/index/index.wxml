@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="click" bindtap="click">
+  <text>点击出现弹窗</text>
+</view>
+<!-- 弹窗 -->
+<view class="window" wx:if="{{tab==1}}">
+  自定义内容。。。
+</view>
