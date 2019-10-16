@@ -16,7 +16,7 @@ Page({
     //双击弹窗消失
     }else if(that.data.tab==1){
       that.setData({
-        tab: 1
+        tab: 0
       })
     }
   }
