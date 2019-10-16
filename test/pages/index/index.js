@@ -9,8 +9,15 @@ Page({
   //点击出现弹窗
   click: function() {
     let that = this;
-    that.setData({
-      tab: 1
-    });
+      if(that.data.tab==0){
+      that.setData({
+       tab: 1
+      })
+    //双击弹窗消失
+    }else if(that.data.tab==1){
+      that.setData({
+        tab: 1
+      })
+    }
   }
 })
